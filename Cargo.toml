@@ -14,7 +14,7 @@ linera-sdk = { git = "https://github.com/jvff/linera-protocol", rev = "26a5299" 
 serde = { version = "1.0.217", features = ["derive"] }
 
 [target.'cfg(not(target_arch = "wasm32"))'.dev-dependencies]
-fungible = { git = "https://github.com/bhaagiKenpachi/linera-fungible", rev = "4c417eb" }
+fungible = { git = "https://github.com/bhaagiKenpachi/linera-fungible", rev = "fe1cb09" }  # Updated revision to a known working one
 linera-sdk = { git = "https://github.com/jvff/linera-protocol", rev = "26a5299", features = ["test", "wasmer"] }
 tokio = { version = "1.25.0", features = ["macros", "rt-multi-thread"] }
 
